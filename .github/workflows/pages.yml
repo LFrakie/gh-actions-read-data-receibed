@@ -39,13 +39,13 @@ jobs:
           echo ver pwd:
           pwd
           echo Creado y listado
-	  echo Print Git Version
+          echo Print Git Version
           git --version
 
-	  echo Print - http Curl
-	  echo sD-------------------
+          echo Print - http Curl
+          echo sD-------------------
           #wget -O testDown.html https://lfvdocs-generator.herokuapp.com/docgen/urlvar/title-doc
-	  echo Print GH verision
+          echo Print GH verision
           gh --version
       
       - name: Deployando :D
