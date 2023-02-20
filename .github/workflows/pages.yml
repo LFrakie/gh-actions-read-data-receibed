@@ -31,13 +31,19 @@ jobs:
       - name: Run multi-line scripts :B
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-          mkdir fff-test-dir
+          
+          echo " add hollo.md -------------------------------------"
           touch hollo.md
+          git add hollo.md
+          git commit -m "add hollo"
+          git push master
+          echo " LS -------------------------------------"
           ls -a
           
+          echo " -------------------------------------"
           echo ver pwd:
           pwd
+          echo " -------------------------------------"
           echo Creado y listado
           echo Print Git Version
           git --version
