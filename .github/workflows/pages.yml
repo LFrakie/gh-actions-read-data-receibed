@@ -41,10 +41,10 @@ jobs:
           echo Creado y listado
           echo Print Git Version
           git --version
-
+          echo "-------------------------------------"
           echo Print - http Curl
-          echo sD-------------------
-          #wget -O testDown.html https://lfvdocs-generator.herokuapp.com/docgen/urlvar/title-doc
+          echo "-------------------------------------"
+          curl https://maker.ifttt.com/trigger/hookif/with/key/i2au2EIwBAZbkTwnyv4QEelN9Qn_SVjMlqcJ38gj2AD?value1=desdeGHdata
           echo Print GH verision
           gh --version
       
