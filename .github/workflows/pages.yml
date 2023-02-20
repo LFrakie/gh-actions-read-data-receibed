@@ -32,6 +32,9 @@ jobs:
         run: |
           echo Add other actions to build,
           
+          echo " Print Node Version -------------------------------------"
+          node -v
+          
           echo " add hollo.md -------------------------------------"
           # touch hollo.md
           # git add hollo.md
@@ -44,6 +47,8 @@ jobs:
           echo " -------------------------------------"
           echo ver pwd:
           pwd
+          
+          
           echo " -------------------------------------"
           echo Creado y listado
           echo Print Git Version
@@ -51,7 +56,7 @@ jobs:
           echo "-------------------------------------"
           echo Print - http Curl
           echo "-------------------------------------"
-          curl https://maker.ifttt.com/trigger/hookif/with/key/i2au2EIwBAZbkTwnyv4QEelN9Qn_SVjMlqcJ38gj2AD?value1=desdeGHdata
+          curl https://maker.ifttt.com/trigger/hookif/with/key/i2au2EIwBAZbkTwnyv4QEelN9Qn_SVjMlqcJ38gj2AD?value1=desdeGHd123
           echo Print GH verision
           gh --version
       
