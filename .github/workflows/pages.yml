@@ -33,10 +33,11 @@ jobs:
           echo Add other actions to build,
           
           echo " add hollo.md -------------------------------------"
-          touch hollo.md
-          git add hollo.md
-          git commit -m "add hollo"
-          git push master
+          # touch hollo.md
+          # git add hollo.md
+          # git commit -m "add hollo"
+          # git push master
+          
           echo " LS -------------------------------------"
           ls -a
           
