@@ -48,9 +48,3 @@ jobs:
           echo Print GH verision
           gh --version
       
-      - name: Deployando :D
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          publish_branch: gh-pages
